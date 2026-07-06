@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/OPA-CAFE-Management-System/static/css/main.e6c13ad2.css",
+    "main.js": "/OPA-CAFE-Management-System/static/js/main.7fb239f0.js",
+    "static/js/453.8933a9fa.chunk.js": "/OPA-CAFE-Management-System/static/js/453.8933a9fa.chunk.js",
+    "index.html": "/OPA-CAFE-Management-System/index.html",
+    "main.e6c13ad2.css.map": "/OPA-CAFE-Management-System/static/css/main.e6c13ad2.css.map",
+    "main.7fb239f0.js.map": "/OPA-CAFE-Management-System/static/js/main.7fb239f0.js.map",
+    "453.8933a9fa.chunk.js.map": "/OPA-CAFE-Management-System/static/js/453.8933a9fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7fb239f0.js"
+  ]
+}
