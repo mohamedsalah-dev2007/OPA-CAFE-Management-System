@@ -1,0 +1,78 @@
+.navbar {
+  height: 70px;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  width: 100%;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.nav-icon-btn {
+  background: #2d2d2d;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.3s;
+}
+.nav-icon-btn:hover {
+  background: #404040;
+}
+.badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background-color: #ee5253;
+  color: white;
+  font-size: 11px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.user-name {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.user-role {
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  background-color: #ff9f43;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
