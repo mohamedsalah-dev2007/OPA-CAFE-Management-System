@@ -3,6 +3,13 @@ import './Sidebar.css';
 import { LayoutDashboard, Users, Coffee, ClipboardList, Settings, LogOut } from 'lucide-react';
 
 function Sidebar({ currentTab, setCurrentTab }) {
+  
+ 
+  const handleLogout = () => {
+    
+    window.location.href = '/';
+  };
+
   const menuItems = [
     { id: 'dashboard', text: 'لوحة التحكم', icon: <LayoutDashboard size={20} /> },
     { id: 'orders', text: 'الطلبات', icon: <ClipboardList size={20} /> },
@@ -28,28 +35,28 @@ function Sidebar({ currentTab, setCurrentTab }) {
           </button>
         ))}
       </nav>
-     <div className="sidebar-footer">
-  <button 
-    className="logout-btn" 
-    onClick={handleLogout} 
-    style={{
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      gap: '10px',
-      background: '#ff4757',
-      color: '#fff',
-      border: 'none',
-      padding: '10px',
-      borderRadius: '8px',
-      cursor: 'pointer',
-      width: '100%'
-    }}
-  >
-    <span>تسجيل الخروج</span>
-    <LogOut size={20} />
-  </button>
-</div>
+      <div className="sidebar-footer">
+        <button 
+          className="logout-btn" 
+          onClick={handleLogout} 
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '10px',
+            background: '#ff4757',
+            color: '#fff',
+            border: 'none',
+            padding: '10px',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            width: '100%'
+          }}
+        >
+          <span>تسجيل الخروج</span>
+          <LogOut size={20} />
+        </button>
+      </div>
     </aside>
   );
 }
